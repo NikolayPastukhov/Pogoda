@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #498cec;
 }
+
 .city-search {
   display: flex;
   justify-content: space-between;
@@ -13,99 +14,97 @@ body {
   padding: 30px;
   margin-right: 0;
 }
+
 .city,
-.search-city {
+.search-btn {
   outline: 0;
   border: 0;
   font-size: 30px;
 }
-.search-city {
+
+.search-btn {
   color: #1086FF;
   background-color: #ffffff;
 }
+
 .city {
   width: 500px;
 }
-.result {
+
+.main-info {
   text-align: center;
   padding-top: 50px;
   background-color: #498cec;
   color: white;
 }
-.result h1 {
+
+.main-info h1 {
   margin-left: 50%;
   width: 200px;
   margin-bottom: 0;
   font-size: 100pt;
 }
-.result h2  {
+
+.main-info h2 {
   margin-top: 0;
   font-size: 25px;
 }
-.result-2 {
+
+.additional-item {
   padding-top: 15%;
   display: flex;
   justify-content: space-around;
 }
-.wind{
-  width: 183px;
-  height: 62px;
-}
-.press {
-  width: 154px;
-  height: 62px;
-}
-.wet {
-  width: 90px;
-  height: 62px;
-}
-.chance {
-  width: 163px;
-  height: 62px;
-}
-.wind h1,
-.wet h1,
-.press h1,
-.chance h1 {
+
+.additional-item h1 {
   font-size: 18px;
   color: #92BAF4;
 }
-.wind h2,
-.wet h2,
-.press h2,
-.chance h2 {
+
+.additional-item h2 {
   color: white;
   font-size: 25px;
 }
-.CF{
-  color:#92BAF4;
+
+.temperature {
+  color: #92BAF4;
   font-size: 15pt;
   text-align: center;
   float: right;
   padding-right: 5%;
 }
-tr {
-  display: inline-flex;
-}
-.s,.s-2 {
-  border: 1px solid #92BAF4;
-}
-.s{
-  color: #ffffff;
-  background-color: #92BAF4;
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-  width: 38px;
-  height: 25px;
-}
-.s-2 {
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  width: 38px;
-  height: 25px;
-}
+
 img {
-  margin-top: 100px;
+  margin-top: 6%;
   margin-left: 40%;
   float: left;
+}
+
+.temperature {
+  display: flex;
+}
+
+.temperature h1 {
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.temperature input {
+  outline: 0;
+  font-size: 20px;
+  background-color: #498cec;
+  color: #92BAF4;
+}
+
+#C {
+  border: 1px solid #92BAF4;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: white;
+}
+
+#F {
+  border: 1px solid #92BAF4;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
