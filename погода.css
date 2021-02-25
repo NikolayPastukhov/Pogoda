@@ -67,6 +67,7 @@ body {
 }
 
 .temperature {
+  display: flex;
   color: #92BAF4;
   font-size: 15pt;
   text-align: center;
@@ -80,16 +81,12 @@ img {
   float: left;
 }
 
-.temperature {
-  display: flex;
-}
-
 .temperature h1 {
   font-size: 20px;
   margin: 0 5px;
 }
 
-.temperature input {
+.temperature button{
   outline: 0;
   font-size: 20px;
   background-color: #498cec;
